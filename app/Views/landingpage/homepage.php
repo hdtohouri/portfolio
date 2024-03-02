@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="<?php echo base_url("css/bootstrap.min.css") ?>">
     <link rel="stylesheet" href="<?php echo base_url("fonts/Italianno-Regular") ?>">
     <link rel="stylesheet" href="<?php echo base_url("css/style.css") ?>">
-    <link rel="stylesheet" href="<?php echo base_url("css/font-awesome.css") ?>">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="<?php echo base_url("css/font-awesome.min.css") ?>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="<?php echo base_url("css/animate.min.css") ?>">
     <title>HENOC TOHOURI | DEV </title>
 </head>
 
@@ -32,7 +33,7 @@
                             <a class="nav-link active fs-5 mx-lg-2" aria-current="page" href="#">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5 mx-lg-2" href="#">A Propos</a>
+                            <a class="nav-link fs-5 mx-lg-2" href="#about">A Propos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link fs-5 mx-lg-2" href="#">Projets</a>
@@ -64,8 +65,8 @@
                         <p>Ingénieur logiciel passionné, je m'efforce constamment d'approfondir mes connaissances technologiques et de relever des défis innovants</p>
 
                         <div class="pt-5">
-                            <a href="" class="btn btn-danger fw-bold me-5"><i class="fas fa-download"></i> Mes Réalisations</a>
-                            <a href="" class="btn btn-danger fw-bold me-5"><i class="fas fa-download"></i> Me Contacter</a>
+                            <a href="" class="btn btn-danger fw-bold me-5"><i class="fas fa-chalkboard-teacher"></i> Mes Réalisations</a>
+                            <a href="" class="btn btn-danger fw-bold me-5"><i class="fas fa-phone-volume"></i> Me Contacter</a>
                         </div>
                     </div>
                 </div>
@@ -76,12 +77,12 @@
     <!-- Fin Section Hero -->
 
     <!-- Debut Section A Popos -->
-    <section class="about bg-white py-5">
+    <section class="about bg-white py-5" id="about">
         <div class="container py-4">
             <div class="justyfi-content-start">
                 <div class="col-lg-4">
                     <div class="section-about-title">
-                        <h2 class="fw-bold mb-5">A Propos De Moi</h2>
+                        <h2 class="fw-bold mb-5">A PROPOS DE MOI</h2>
                         <span></span>
                     </div>
                 </div>
@@ -89,7 +90,7 @@
             <div class="row d-flex">
                 <div class="col-md-6">
                     <p>Je suis Tohouri Henoc Desire, un ingénieur logiciel junior passionné par la développement d’applications web et mobiles innovantes. </p>
-                    <div class="row text-center text-upercase my-3">
+                    <div class="row justify-content-start text-upercase my-3">
                         <div class="col-sm-4">
                             <div class="fact-item">
                                 <h4 class="fs-1 fw-bold">+4</h4>
@@ -155,7 +156,103 @@
     </section>
     <!-- Fin Section A Popos -->
 
+    <!-- Debut Section Mes Services -->
+    <section class="services bg-body-tertiary py-5">
+        <div class="container py-4">
+            <div class="justyfi-content-start">
+                <div class="col-lg-4">
+                    <div class="section-about-title">
+                        <h2 class="fw-bold mb-5">MES SERVICES</h2>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded ">
+                        <div class="icon my-3 fs-2"><i class="fas fa-text-height"></i></i></div>
+                        <h3 class="fs-5 py-2">UI DESIGN </h3>
+                        <p class="">Création d'interfaces utilisateur conviviales et répondant aux besoins des utilisateurs</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded">
+                        <div class="icon my-3 fs-2"><i class="fas fa-code"></i></div>
+                        <h3 class="fs-5 py-2">Développement Web</h3>
+                        <p class="">Développement d'applications Web sécurisées sur mesure répondant aux besoins des utilisateurs</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded">
+                        <div class="icon my-3 fs-2"><i class="fas fa-mobile-alt"></i></div>
+                        <h3 class="fs-5 py-2">Développement Mobile</h3>
+                        <p class="">Développement d'applications Mobiles sécurisées sur mesure répondant aux besoins des utilisateurs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Section Mes Services -->
+    <section style="background-color: #F0F2F5;">
+  <div class="container py-5">
+    <div class="main-timeline-2">
+      <div class="timeline-2 left-2">
+        <div class="card">
+          <div class="card-body p-4">
+            <h4 class="fw-bold mb-4">Développement de mon portfolio</h4>
+            <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> Mars 2024</p>
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-2 right-2">
+        <div class="card">
+          <div class="card-body p-4">
+            <h4 class="fw-bold mb-4">Stage PFE Groupe LS - Cote D'Ivoire</h4>
+            <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> Mars 2024 - juillet 2024</p>
+            <p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+              doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+              architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
+              sequi nesciunt.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-2 left-2">
+        <div class="card">
+          <div class="card-body p-4">
+            <h4 class="fw-bold mb-4">Stage Assistant Ingénieur LAMEDIS - Sénégal</h4>
+            <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> Juillet 2023 - Octobre 2023  (3 mois)</p>
+            <p class="mb-0">Développement d'une application web pour le suivi et la gestion du stock en Codeigniter, Bootstrap.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-2 right-2">
+        <div class="card">
+          <div class="card-body p-4">
+            <h4 class="fw-bold mb-4"> PROJET ETUDIANT FEECRA - Maroc</h4>
+            <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i>  Mai 2023</p>
+            <p class="mb-0">Développement d'une application web e-Commerce de packaging personnalisé en  Codeigniter, Bootstrap.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-2 left-2">
+        <div class="card">
+          <div class="card-body p-4">
+            <h4 class="fw-bold mb-4">Stage Technicien LAMEDIS - Sénégal</h4>
+            <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> Juillet 2022 - Septembre 2022  (2 mois)</p>
+            <p class="mb-0">Implémentation d’un système d’authentification à double facteur via SMS et du module de récupération de mot de passe via l’Api Twilio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
     <script src="<?php echo base_url("js/bootstrap.min.js") ?>"></script>
+    <script src="<?php echo base_url("js/jquery.min.js") ?>"></script>
 </body>
 
 </html>
